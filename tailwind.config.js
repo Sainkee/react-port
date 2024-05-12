@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      filter: {
+        'drop-shadow-custom': 'drop-shadow(0 0 0.75rem yellow)',
+      },
+    },
   },
   plugins: [],
 }

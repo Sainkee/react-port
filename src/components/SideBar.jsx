@@ -15,7 +15,7 @@ export default function SideBar() {
   const [open, setOpen] = useState(false);
   return (
     <div>
-      <div className="flex gap-10 flex-col my-10 md:my-5 justigy-center  md:w-1/5 relative items-center py-10   border border-black rounded-2xl bg-[#2186A0] w-[90%] mx-auto p-5">
+      <div className="flex gap-10 flex-col lg:fixed  md:my-5 justify-center    items-center   border border-black rounded-2xl bg-[#2186A0]  mx-auto p-5">
         <span
           onClick={() => setOpen(!open)}
           className="absolute md:hidden text-yellow-500 bg-gradient-to-br from-[#2A5966] to-[#2186A0] hover:bg-gradient-to-br hover:to-black hover:from-yellow-900 hover:ease-in-out hover:duration-300 hover:transition-all px-3 py-2 rounded-bl-2xl rounded-tr-2xl top-0 right-0 "
