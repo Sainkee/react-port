@@ -8,7 +8,7 @@ export default function NavBar() {
       {navBar.map((item) => (
         <li key={uid()} className=" text-md">
           <NavLink
-            className={(isActive) =>
+            className={({isActive}) =>
               `${isActive ? "text-yellow-500" : "text-gray-500"} `
             }
             to={item.path}
@@ -20,3 +20,4 @@ export default function NavBar() {
     </ul>
   );
 }
+
