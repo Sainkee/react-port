@@ -9,7 +9,7 @@ import {
 
 
 export const navBar = [
-  { label: "About", path: "/about" },
+  { label: "About", path: "/" },
 //   { label: "Certificates", path: "/certificates" },
 //   { label: "Projects", path: "/projects" },
 //   { label: "More Projects", path: "/more-projects" },

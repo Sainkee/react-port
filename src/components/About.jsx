@@ -8,12 +8,7 @@ import { codind } from "../constants";
 export default function About() {
   const [open, setOpen] = useState(false);
   return (
-    <div className="flex flex-col relative text-white  gap-2  border border-black rounded-2xl bg-[#2186A0]  mx-auto p-5">
-      <div className=" absolute hidden md:block top-0 right-0 ">
-        <NavBar />
-      </div>
-
-      <h1 className="text-4xl text-white font-bold  ">About Me</h1>
+<>      <h1 className="text-4xl text-white font-bold  ">About Me</h1>
 
       <div className="h-1 rounded-full bg-gradient-to-tr my-4  from-yellow-400 to-yellow-600 w-[50px]"></div>
       <div className=" bg-gradient-to-r shadow-xl  rounded-xl from-[#2C525C] mx-auto to-[#206377] p-6 w-[95%] ">
@@ -135,6 +130,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
